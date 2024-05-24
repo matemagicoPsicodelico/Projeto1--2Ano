@@ -1,0 +1,61 @@
+ /* veja que a página está igual a um bloco de notas ou um word, 
+ agr vamos começar a dar forma ao nosso projeto */
+
+ /*#383D58*/  /* digitar o código da cor não será suficiente para apli-cá-la. */
+
+  /*body {#383D58}  */
+
+/*body {
+    background-color:  #383D58;
+    /*para mudar a cor da letra usa-se */
+    /*color: blanchedalmond;}*/
+
+/*Ao carregarmos a página, a página não sofreu quaisquer alterações*/
+
+/*Isso acontece porque não relacionamos o arquivo style.css com o ar-
+quivo index.html.
+
+Para adicionarmos o arquivo style.css como parte da página HTML, uti-
+lizamos a tag <link> e logo em seguida a propriedade rel, que identifi-
+ca o tipo de arquivo. Por fim, apontamos qual arquivo deve ser inserido
+por meio da propriedade href.
+*/
+
+/*Para garantirmos que as alterações só sejam feitas nos elementos do ca-
+beçalho, alteraremos a tag <body> no arquivo style.css para <header>. Desta
+forma, os próximos elementos adicionados poderão ter um padrão de
+cor diferente.*/
+
+/*header {
+    background-color: #383D58;
+    color: white;
+    }*/
+
+
+/*o valor 20% da propriedade width, que significa largura. Isso
+    representará a ocupação de 20% da tela pela imagem adicionada.*/
+.cabecalho-imagem{
+        width: 20%;
+}
+
+
+ 
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    }
+
+
+.cabecalho-lista-item{
+    display: inline-block;
+    }
+
+
+
+
+
+
+
+
