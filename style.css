@@ -42,7 +42,7 @@ cor diferente.*/
  
 .cabecalho {
     background-color: #383D58;
-    color: white;
+    color: rgb(181, 36, 36);
     display:flex;
     justify-content: space-around;
     }
